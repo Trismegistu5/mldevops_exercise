@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mldevops-exercise"
+version = "0.1.0"
+description = ""
+authors = ["Jakub <jplachno@student.agh.edu.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.1"
+torchvision = "^0.17.1"
+matplotlib = "^3.9.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.3.0"
+pytest = "^7.1.0"
+codespell = "^2.1.0"
+pyupgrade = "^3.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
